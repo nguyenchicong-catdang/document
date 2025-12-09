@@ -6,3 +6,5 @@ sudo apt-cache search lsphp
 ```bash
 sudo apt-get install lsphp83-redis
 ```
+
+sudo apt-get install lsphp83-redis lsphp83-igbinary
