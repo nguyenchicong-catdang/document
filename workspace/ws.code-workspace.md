@@ -12,6 +12,9 @@
 		},
 		{	"name": "🚀 PROJECT CHÍNH",
 			"path": "../openLiteSpeed"
+		},
+        {	"name": "🧡 🐘 💻 📦 PROJECT SRC LARAVEL",
+			"path": "../openLiteSpeed/example-app/src"
 		}
 	],
 	"settings": {}
