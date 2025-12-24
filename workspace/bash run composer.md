@@ -28,3 +28,7 @@ exec bash
 sudo killall -9 node php8.3 2>/dev/null
 ## don dep an toan 
 fuser -k 8000/tcp 5173/tcp 2>/dev/null
+
+## them kill nếu tồn tại
+fuser -k 8080/tcp || true
+fuser -k 5173/tcp || true
