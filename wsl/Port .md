@@ -18,6 +18,9 @@ kill -9 15592
 ```bash
 killall -9 node;
 killall -9 php8.3
+sudo pkill -9 -f 'php|artisan|composer|node'
+# Đúng: dùng send, dấu ngoặc kép bao quanh lệnh, lệnh kết thúc bằng \r
+send "sudo pkill -9 -f 'php|artisan|composer|node'\r"
 ```
 
 ## # Kill các tiến trình đang chiếm port của Vite và PHP server
