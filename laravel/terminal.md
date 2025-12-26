@@ -1,3 +1,5 @@
+# xoa all cache
+php artisan optimize:clear
 # vendor:publish
 php artisan vendor:publish --tag=src-views
 # Providers
@@ -22,3 +24,10 @@ echo get_class($instance);
 curl -I http://127.0.0.1:8000/admin-dashboard
 
 curl -I http://127.0.0.1:8000/admin-dashboard?admin=1
+
+# post
+```bash
+curl -X POST http://127.0.0.1:8000/api/login-api \
+     -H "Content-Type: application/json" \
+     -d '{"username": "admin", "password": "your_password"}'
+```
