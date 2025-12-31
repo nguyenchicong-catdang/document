@@ -1,6 +1,10 @@
 # From
 https://react.dev/reference/react-dom/components/input#providing-an-initial-value-for-an-input
 
+https://api.reactrouter.com/v7/interfaces/react_router.ActionFunctionArgs.html
+
+export async function postsUpdateAction({ request, params }) {
+    
 ```bash
 import { Form, useLoaderData, useActionData, useNavigation } from "react-router-dom";
 
