@@ -35,4 +35,10 @@ https://make.wordpress.org/cli/handbook/guides/quick-start/#practical-examples
 
 > wp core install --url=localhost --title="WP-CLI" --admin_user=admin --admin_password=wpcli --admin_email=info@wp-cli.org
 
+## deploay chung mot port
 > wp core install --url=localhost:8000/wp-learn --title="WP-CLI" --admin_user=admin --admin_password=wpcli --admin_email=info@wp-cli.org
+
+## luu y part
+> 49	upload_path	uploads
+
+> 56	upload_url_path	/uploads
