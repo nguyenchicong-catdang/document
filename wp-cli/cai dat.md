@@ -33,7 +33,7 @@ https://make.wordpress.org/cli/handbook/guides/quick-start/#practical-examples
 
 > wp db create
 
-> wp core install --url=localhost --title="WP-CLI" --admin_user=admin --admin_password=wpcli --admin_email=info@wp-cli.org
+> wp core install --url=127.0.0.1 --title="WP-CLI" --admin_user=admin --admin_password=wpcli --admin_email=info@wp-cli.org
 
 ## deploay chung mot port
 > wp core install --url=localhost:8000/wp-learn --title="WP-CLI" --admin_user=admin --admin_password=wpcli --admin_email=info@wp-cli.org
