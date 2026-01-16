@@ -21,3 +21,5 @@
 > KEYS *
 
 > TTL laravel-database-laravel-cache-wp_sidebar_categories
+
+> DEL laravel-database-laravel-cache-wp_sidebar_categories
