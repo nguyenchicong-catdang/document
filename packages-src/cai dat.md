@@ -29,7 +29,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../packages-src",
+            "url": "../../packages-src",
             "options": {
                 "symlink": true
             }
