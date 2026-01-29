@@ -20,6 +20,21 @@ https://developer.wordpress.org/cli/commands/cli/
 
 > wp cli update
 
+# install wp-app
+> wp core download --path=wp-app
+
+> cd wp-app && wp config create --dbhost=127.0.0.1 --dbname=wp_database --dbuser=wp_user --prompt=dbpass
+
+> wp db create
+
+> wp core install --url=127.0.0.1:8080 --title="WP-CLI" --admin_user=admin --admin_password=wpcli --admin_email=info@wp-cli.org
+
+> wp option update upload_path	uploads
+
+> wp option update upload_url_path	/uploads
+
+> wp server
+
 ## install
 https://make.wordpress.org/cli/handbook/guides/quick-start/
 
@@ -34,6 +49,8 @@ https://make.wordpress.org/cli/handbook/guides/quick-start/#practical-examples
 > wp db create
 
 > wp core install --url=127.0.0.1 --title="WP-CLI" --admin_user=admin --admin_password=wpcli --admin_email=info@wp-cli.org
+
+> wp server
 
 ## deploay chung mot port
 > wp core install --url=localhost:8000/wp-learn --title="WP-CLI" --admin_user=admin --admin_password=wpcli --admin_email=info@wp-cli.org

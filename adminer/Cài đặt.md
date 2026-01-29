@@ -33,3 +33,6 @@ FLUSH PRIVILEGES;
 
 > GRANT ALL PRIVILEGES ON *.* TO 'ten_user'@'localhost';
 > FLUSH PRIVILEGES;
+
+> UPDATE mysql.user SET host = '%' WHERE user = 'wp_user' AND host = '127.0.0.1';
+> FLUSH PRIVILEGES;
