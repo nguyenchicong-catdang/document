@@ -27,3 +27,7 @@ send "sudo pkill -9 -f 'php|artisan|composer|node'\r"
 sudo fuser -k 5173/tcp 8000/tcp 2>/dev/null
 
 sudo killall -9 node php8.3 2>/dev/null
+
+fuser -k 9000/tcp
+
+fuser -k 8000/tcp 8080/tcp 9000/tcp

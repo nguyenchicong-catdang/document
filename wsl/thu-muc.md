@@ -2,3 +2,6 @@
 ```bash
 pwd
 ```
+
+## xóa
+rm -rf tên_thư_mục

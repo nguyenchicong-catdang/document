@@ -33,6 +33,12 @@ https://developer.wordpress.org/cli/commands/cli/
 
 > wp option update upload_url_path	/uploads
 
+> wp config set WP_POST_REVISIONS 3 --raw
+
+> wp db optimize
+
+> kiểm tra: wp config get WP_POST_REVISIONS
+
 > wp server
 
 ## install
@@ -59,3 +65,5 @@ https://make.wordpress.org/cli/handbook/guides/quick-start/#practical-examples
 > 49	upload_path	uploads
 
 > 56	upload_url_path	/uploads
+
+> Giới hạn Revisions: Thêm define('WP_POST_REVISIONS', 3); vào wp-config.php.
