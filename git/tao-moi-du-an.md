@@ -45,6 +45,6 @@ rm -rf .git
 ```
 ### Xóa Branch (Nhánh)
 
-> git branch -d <branch-name>
+> git branch -D <branch-name>
 
 > git push origin --delete <branch-name>
