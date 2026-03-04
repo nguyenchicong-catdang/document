@@ -43,3 +43,8 @@ git rm VD1
 cd ~/openLiteSpeed/VD1
 rm -rf .git
 ```
+### Xóa Branch (Nhánh)
+
+> git branch -d <branch-name>
+
+> git push origin --delete <branch-name>
