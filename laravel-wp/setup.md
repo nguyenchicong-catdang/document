@@ -12,3 +12,7 @@
     "git.scanRepositories": ["../laravel-wp-local-packages"],
   },
 
+> https://github.com/WordPress/theme-test-data/blob/master/themeunittestdata.wordpress.xml
+
+# Tạo 50 bài viết mẫu
+wp post generate --count=50 --post_content --post_date=2026-03-30
