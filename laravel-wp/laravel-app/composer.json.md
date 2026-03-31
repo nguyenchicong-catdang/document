@@ -107,3 +107,7 @@
 > composer show ncc/*
 
 > composer dump-autoload
+
+> composer show vendor/package-name
+
+> composer show jgrossi/corcel
