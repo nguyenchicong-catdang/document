@@ -44,3 +44,7 @@ export function onRequest(context) {
 }
 
 ```
+
+> npx wrangler dev
+
+> npx wrangler pages dev ./public
